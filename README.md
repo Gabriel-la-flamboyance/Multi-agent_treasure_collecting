@@ -2,7 +2,7 @@
 
 We consider agents who must collect all the treasures scattered in an environment.
 
-•	The environment is represented by a grid. An agent can move from one cell to another if they are adjacent (diagonal movements are allowed). Two agents cannot occupy the same cell.
+•	The environment is represented by a grid (in env1.txt). An agent can move from one cell to another if they are adjacent (diagonal movements are allowed). Two agents cannot occupy the same cell.
 
 •	Treasures are distributed throughout the environment. There are 2 types of treasures: gems and gold coins. These treasures are contained in chests that must be unlocked before agents can collect the treasures (once a chest is unlocked, an agent can collect the corresponding treasure without waiting for all chests to be unlocked). To collect a treasure or unlock a chest, an agent with the proper skill must move to the cell containing the treasure and perform the desired action.
 
